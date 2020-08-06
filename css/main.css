@@ -268,7 +268,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   main {
     padding: 2rem; }
     main #home h1 {
