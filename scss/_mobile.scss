@@ -45,7 +45,7 @@
         transform: translate3d(100%, 0, 0);
 
         .portrait{
-            background: url('../img/portraitsm.jpg');
+            background: url('../img/portrait_sm.jpg');
             width: 150px;
             height: 150px;
         }
@@ -102,5 +102,14 @@
   
     .projects {
       grid-template-columns: 1fr;
+
+      .item{
+        height: 254px;
+        width: 425px;
+      }
+      
+      .act-btn{
+        margin-top: 100%;
+      }
     }
   }

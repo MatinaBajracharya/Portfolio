@@ -2,7 +2,7 @@ $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$background-opacity: 0.9;
+$background-opacity: 0.6; //home ko
 
 @mixin easeOut {
     transition: all 0.5s ease-out;
@@ -47,7 +47,7 @@ $background-opacity: 0.9;
 }
 
 @mixin  mediaSm {
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 500px){
         @content;
     }
 }
