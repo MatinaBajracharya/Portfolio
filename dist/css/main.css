@@ -192,13 +192,11 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem;
-  margin-left: 50px;
-  margin-right: 50px; }
+  margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    padding: 1px 2px;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
@@ -273,7 +271,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 200) {
+@media screen and (max-width: 360) {
   #home .lg-heading {
     font-size: 20px;
     text-align: center; }
@@ -287,7 +285,7 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 700px) {
   #home .lg-heading {
     font-size: 50px;
     text-align: center; }
