@@ -186,16 +186,15 @@ main {
       opacity: 0.5;
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
-  .projects .swiper-container {
-    height: 100%;
-    width: 100%; }
 
 .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  margin-left: 50px;
+  margin-right: 50px; }
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
@@ -242,6 +241,9 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 768px) {
+  #home .lg-heading {
+    font-size: 80px;
+    text-align: center; }
   main {
     align-items: center;
     text-align: center; }
@@ -269,9 +271,12 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 300) {
+@media screen and (max-width: 200) {
+  #home .lg-heading {
+    font-size: 20px;
+    text-align: center; }
   main {
     padding: 1rem; }
     main #home h1 {
@@ -282,7 +287,10 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 360px) {
+  #home .lg-heading {
+    font-size: 50px;
+    text-align: center; }
   main {
     padding: 2rem; }
     main #home h1 {
@@ -291,9 +299,4 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; }
-    .projects .item {
-      height: 254px;
-      width: 425px; }
-    .projects .act-btn {
-      margin-top: 100%; } }
+    grid-template-columns: 1fr; } }
