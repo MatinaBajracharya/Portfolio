@@ -127,19 +127,6 @@ main{
             border-color: $secondary-color;
             @include easeOut;
         }
-
-    }
-
-    // .item{
-    //     height: 410px;
-    //     width: 500px;
-    //     .act-btn{
-    //         margin-top: -150px;
-    //     }
-    // }
-    .swiper-container{
-        height: 100%;
-        width: 100%;
     }
 }
 
@@ -150,6 +137,8 @@ main{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
 
     div{
         font-size: 2rem;
